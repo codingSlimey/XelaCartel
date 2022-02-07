@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0 solid red;
+}
+
+.home-body {
+    background-image: url('xlogo2.jpg');
+}
+
+
+header {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+
+h1 {
+    font-family: 'Syne Tactile', cursive;
+}
+
+/*NAVBAR UL*/
+nav ul {
+    display: table;
+    list-style-type: none;
+    
+}
+
+/*NAVBAR LI*/
+nav li {
+    display: table-cell;
+    text-decoration: none;
+}
+
+/*NAV LI ANCHORS*/
+li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #603A40;
+    font-family: 'rowdies', cursive;
+    font-size: 15px;
+}
+
+header:hover {
+    background: white;
+    color: #000;
+
+}
+
+li a:hover{
+    color: #000;
+    animation-name: navlinks;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+/*NAVLINK ANIMATION*/
+@keyframes navlinks {
+    100% { 
+        font-size: 20px;
+    }
+    
+}
+
+/*LOGIN BUTTON*/
+#login-btn {
+    position: relative;
+    left: 150px;
+    color: #000;
+    background: whitesmoke;
+    border: none;
+    padding: 0.5rem;
+    border: 1px solid black;
+
+
+}
+
+#login-btn:hover {
+    background: black;
+    color: #fff;
+}
+
+/*NAVBAR*/
+#navbar {
+    position: relative;
+    left: 250px;
+}
+
+/*FONT-AWESOME DIV*/
+#fa-div {
+    position: relative;
+    left: 80px;
+    padding: 15px 15px;
+
+}
+
+/*FONT AWESOME*/
+.fa {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#fa-div a {
+   color: #603A40;
+}
+
+#fa-div a:hover {
+    color: #000;
+}
+
+
+
+
+/*LOGIN DIV CREATED FROM JS FILE*/
+.login-div {
+    border: 2px solid blue;
+}
+
+/*SlideShow Div*
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+
+.outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes animate {
+    0%{
+        background-image: url('images/trucker3.jpg');
+    }
+    25%{
+        background-image: url('images/trucker5.jpg');
+    }
+    50%{
+        background-image: url('images/trucker4.jpg');
+    }
+    75%{
+        background-image: url('xlogo2.jpg');
+    }
+}*/
+
+/*SHOP PAGE - COLLECTIONS SECTION*/
+.collections-sect {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+/*SHOP PAGE - COLLECTIONS SECTIONS*/
+.collections-img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/*MAIN H2*/
+h2 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+/*IMAGE BUTTONS*/
+.img-btn {
+    padding: 12px 26px 12px 26px;
+    border: 1px solid white;
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+
+.first {
+    position: absolute;
+    left: 55px;
+}
+
+.second {
+    position: absolute;
+    left: 415px;
+}
+
+.third {
+    position: absolute;
+    right: 546px;
+}
+
+.fourth {
+    position: absolute;
+    right: 185px;
+}
+
+/*IMAGE BUTTON HOVER & ANIMATION*/
+.img-btn:hover{
+    color: white;
+    animation-name: buttons;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttons {
+    100% {
+        background: rgba(0, 0, 0, 0.0);
+    }
+}
+
+/*IMAGE ZOOM ANIMATION*/
+.collections-img:hover {
+    animation-name: zoom;
+    animation-duration: 12s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes zoom {
+    100% {
+        transform: scale(1.2);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    padding: 20px;
+}
+
+/*FOOTER FLEX DIV*/
+#footer-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/*BOTTOM DIV*/
+#bottom-div {
+    padding: 10px;
+    background: #666666;
+
+}
+
+/*ICONS SECTION*/
+.icons-section {
+    /*padding: 20px;*/
+}
+
+.fab {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*OVERVIEW SECTION*/
+.overview-section {
+    
+}
+
+.overview-section li {
+    list-style-type: none;
+}
+
+.overview-section a {
+    text-decoration: none;
+}
+
+/*NEWSLETTER SECTION*/
+.newsletter-section {
+
+}
